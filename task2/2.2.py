@@ -1,0 +1,5 @@
+n = int(input())
+print("The digit in the thousands position is ", (n//1000) % 10)
+print("The number in the hundreds position is ", (n//100) % 10)
+print("The digit in the tens position is ", (n // 10) % 10)
+print("The digit in the position of units is ", n % 10)
